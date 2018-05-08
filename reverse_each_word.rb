@@ -9,6 +9,7 @@
 
 def reverse_each_word(string)
   string.split(" ").collect do |word|
-    word.reverse.to_s
+    word.reverse
   end
+  string
 end
